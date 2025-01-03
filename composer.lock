@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/gadgetphp/contracts.git",
-                "reference": "3555db27bea42b4f647cab8917871ed49152cedd"
+                "reference": "2ab3dba37da9caf4b09d2e32ba675529ebca0eba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gadgetphp/contracts/zipball/3555db27bea42b4f647cab8917871ed49152cedd",
-                "reference": "3555db27bea42b4f647cab8917871ed49152cedd",
+                "url": "https://api.github.com/repos/gadgetphp/contracts/zipball/2ab3dba37da9caf4b09d2e32ba675529ebca0eba",
+                "reference": "2ab3dba37da9caf4b09d2e32ba675529ebca0eba",
                 "shasum": ""
             },
             "require": {
@@ -57,7 +57,7 @@
                 "source": "https://github.com/gadgetphp/contracts",
                 "wiki": "https://github.com/gadgetphp/contracts/wiki"
             },
-            "time": "2024-12-31T20:52:22+00:00"
+            "time": "2025-01-03T21:36:39+00:00"
         },
         {
             "name": "gadgetphp/lang",
