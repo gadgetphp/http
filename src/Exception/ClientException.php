@@ -4,10 +4,11 @@ declare(strict_types=1);
 
 namespace Gadget\Http\Exception;
 
+use Gadget\Lang\Exception;
 use Psr\Http\Client\ClientExceptionInterface;
 use Psr\Http\Message\ServerRequestInterface;
 
-class ClientException extends HttpException implements ClientExceptionInterface
+class ClientException extends Exception implements ClientExceptionInterface
 {
     public function __construct(
         ServerRequestInterface $request,
