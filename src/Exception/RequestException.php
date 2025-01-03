@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace Gadget\Http\Exception;
 
-class RequestException extends HttpException
+use Gadget\Lang\Exception;
+
+class RequestException extends Exception
 {
     public function __construct(
         \Throwable|null $t = null,

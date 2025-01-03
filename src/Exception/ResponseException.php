@@ -4,10 +4,11 @@ declare(strict_types=1);
 
 namespace Gadget\Http\Exception;
 
+use Gadget\Lang\Exception;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 
-class ResponseException extends HttpException
+class ResponseException extends Exception
 {
     public function __construct(
         ServerRequestInterface $request,
